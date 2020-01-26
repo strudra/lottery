@@ -12,6 +12,11 @@ function populateNames(e) {
   const val = inputNode.value;
   const names = val.split(",");
 
+  if (names.length < 2) {
+    alert("unesite imena razdvojena zarezima");
+    return;
+  }
+
   okNode.remove();
   inputNode.remove();
   labela.remove();

@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #1a1f28;
+  font-family: Ubuntu;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#labela {
+  font-size: 1rem;
+}
+
+#names {
+  width: 60%;
+  font-size: 1.5rem;
+  outline: none;
+  font-family: Ubuntu;
+}
+
+.stop {
+  outline: none;
+  background: red;
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  font-family: Ubuntu;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.stop-ok {
+  background: green;
+}
+
+#h1-logo {
+  font-size: 3rem;
+}
+
+#h2-logo {
+  font-size: 1.5rem;
+}
